@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<display-name>LoginServlet</display-name>
+		<description></description>
+		<servlet-class>com.cognixia.jump.servlets.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CustomerServlet</servlet-name>
+		<display-name>CustomerServlet</display-name>
+		<description></description>
+		<servlet-class>com.cognixia.jump.servlets.CustomerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CustomerServletUpdateUsername</servlet-name>
+		<display-name>CustomerServletUpdateUsername</display-name>
+		<description></description>
+		<servlet-class>com.cognixia.jump.servlets.CustomerServletUpdateUsername</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CustomerServletUpdatePassword</servlet-name>
+		<display-name>CustomerServletUpdatePassword</display-name>
+		<description></description>
+		<servlet-class>com.cognixia.jump.servlets.CustomerServletUpdatePassword</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SignUpServlet</servlet-name>
+		<display-name>SignUpServlet</display-name>
+		<description></description>
+		<servlet-class>com.cognixia.jump.servlets.SignUpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CustomerServlet</servlet-name>
+		<url-pattern>/CustomerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CustomerServletUpdateUsername</servlet-name>
+		<url-pattern>/CustomerServletUpdateUsername</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CustomerServletUpdatePassword</servlet-name>
+		<url-pattern>/CustomerServletUpdatePassword</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SignUpServlet</servlet-name>
+		<url-pattern>/SignUpServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
